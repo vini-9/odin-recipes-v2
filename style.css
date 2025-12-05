@@ -39,3 +39,67 @@ body {
   color: #4a4646;
   font-weight: bold;
 }
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.desc-box,
+.ingredients-box,
+.steps-box {
+  background-color: white;
+  width: 500px;
+  margin: 20px auto; /* espaçamento aqui */
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.title-box {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.recipe-container {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: gray;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+p {
+  padding: 5px;
+}
+
+.ingredients-box li {
+  list-style: none;
+}
+
+.steps-box ol {
+  padding-left: 20px;
+}
+
+.steps-box li {
+  margin-bottom: 16px;
+}
+
+.pizza-bg {
+  background-color: #4287f5;
+}
+
+.pancakes-bg {
+  background-color: #03043b;
+}
+
+.lasagna-bg {
+  background-color: #52050d;
+}
